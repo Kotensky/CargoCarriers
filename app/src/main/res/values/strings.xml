@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Cargo Carriers</string>
+    <string name="call_dialog_title">Виберіть телефон</string>
+    <string name="last_call_temp">Останній дзвінок: %s</string>
+    <string name="directions_temp">Напрями: %s</string>
+</resources>

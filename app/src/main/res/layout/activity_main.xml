@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/carriers_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/add_carrier_fbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="32dp"
+        android:clickable="true"
+        android:src="@drawable/ic_add_white"
+        app:layout_anchor="@+id/carriers_recycler"
+        app:layout_anchorGravity="bottom|right|end"
+        app:layout_behavior="com.kotensky.cargocarriers.util.view.FloatingButtonHideOnScrollBehavior" />
+
+
+</android.support.design.widget.CoordinatorLayout>
